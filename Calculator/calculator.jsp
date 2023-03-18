@@ -6,8 +6,7 @@
 <meta charset="UTF-8">
 <title>JSP Calculator</title>
 <style>
-    /* CSS styles for calculator */
-    /* CSS styles for calculator */
+/* CSS styles for calculator */
 .calculator {
   width: 270px;
   height: 400px;
@@ -20,6 +19,10 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .calculator input[type="text"] {

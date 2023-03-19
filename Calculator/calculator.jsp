@@ -9,7 +9,7 @@
 /* CSS styles for calculator */
 .calculator {
   width: 270px;
-  height: 400px;
+  height: 450px;
   margin: 0 auto;
   background-color: #f3f3f3;
   padding: 20px;
@@ -103,11 +103,16 @@
                 <input type="button" value="*" onclick="calcForm.result.value += '*'" />
             </div>
             <div class="row">
-                <input type="button" value="0" onclick="calcForm.result.value += '0'" />
-                <input type="button" value="C" onclick="calcForm.result.value = ''" />
-                <input type="button" value="=" onclick="calcForm.result.value = eval(calcForm.result.value)" />
+                <input type="button" value="0" onclick="calcForm.result.value += '0'" />      
+                <input type="button" value="(" onclick="calcForm.result.value += '('"/>
+                <input type="button" value=")" onclick="calcForm.result.value += ')'"/>
                 <input type="button" value="/" onclick="calcForm.result.value += '/'" />
+
             </div>
+              <input type="button" value="C" onclick="calcForm.result.value = ''" />
+              <input type="button" value="←" onclick="calcForm.result.value = calcForm.result.value.slice(0, -1)" />
+              <input type="button" value="=" onclick="calcForm.result.value = eval(calcForm.result.value)" />
+          </div>
         </form>
     </body>
     </html>

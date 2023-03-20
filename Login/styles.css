@@ -1,0 +1,92 @@
+body {
+    font-family: "Helvetica Neue", sans-serif;
+    background: #F2F2F2;
+  }
+  
+  #frm {
+    width: 400px;
+    margin: 120px auto;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 40px;
+    box-sizing: border-box;
+  }
+  
+  #frm h1 {
+    text-align: center;
+    margin-top: 0;
+    font-size: 32px;
+    color: #003F87;
+    margin-bottom: 40px;
+  }
+  
+  #frm label {
+    display: block;
+    font-size: 16px;
+    color: #6c6c72;
+    margin-bottom: 10px;
+  }
+  
+  #frm input[type="text"],
+  #frm input[type="password"] {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 16px;
+    font-size: 16px;
+    color: #4A4A4A;
+    background: #F2F2F2;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+  }
+  
+  #frm input[type="text"]:focus,
+  #frm input[type="password"]:focus {
+    box-shadow: 0 5px 10px rgba(115, 107, 139, 0.514);
+    outline: none;
+  }
+  
+  #frm #btn {
+    display: block;
+    margin: 0 auto;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #FFFFFF;
+    background: #003F87;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  
+  #frm #btn:hover {
+    background: #A41034;
+  }
+  
+  .error {
+    color: #A41034;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+
+  
+
+  p {
+    background-color: #003F87;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    font-size: 32px;
+  font-weight: bold;
+  font-family: "Helvetica Neue", sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+  }

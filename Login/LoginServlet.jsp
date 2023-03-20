@@ -6,9 +6,10 @@
 <head>
     <title>Login Servlet</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="pstyles.css">
+ 
 </head>
 <body>
-
 <%
     // Get user input from the form
     String user = request.getParameter("username");
